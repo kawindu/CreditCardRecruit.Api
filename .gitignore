@@ -5,3 +5,5 @@
 /CreditCardRecruit.Api/CreditCardRecruit.Api/obj
 /CreditCardRecruit.Api/CreditCardRecruit.Api.Tests.Integration/obj
 /CreditCardRecruit.Api/CreditCardRecruit.Api.Tests.Unit/obj
+/CreditCardRecruit.Api/CreditCardRecruit.Api/bin/Debug/net5.0
+/CreditCardRecruit.Api/.vs

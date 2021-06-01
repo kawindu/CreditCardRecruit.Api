@@ -1,3 +1,4 @@
+using CreditCardRecruit.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,9 +9,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CreditCardRecruit.Api
 {
@@ -28,6 +26,7 @@ namespace CreditCardRecruit.Api
         {
 
             services.AddControllers();
+            services.AddScoped<ICreditCardService, CreditCardService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CreditCardRecruit.Api", Version = "v1" });
