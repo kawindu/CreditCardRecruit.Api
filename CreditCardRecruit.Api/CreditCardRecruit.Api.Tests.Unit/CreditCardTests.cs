@@ -42,25 +42,25 @@ namespace CreditCardRecruit.Api.Tests.Unit
         [Fact]
         public void CreateCreditCardAsync_InputInvalidCreditCardNumber_ReturnInvalidCreditCardNumber()
         {
-            //TODO: Write unit tests
+            //TODO: Write unit test
         }
 
         [Fact]
         public void CreateCreditCardAsync_InputValidCreditCardNumber_ReturnValidCreditCardNumber()
         {
-            //TODO: Write unit tests
+            //TODO: Write unit test
         }
 
         [Fact]
         public void CreateCreditCardAsync_InputValidCvcNumber_ReturnValidCvcNumber()
         {
-            //TODO: Write unit tests
+            //TODO: Write unit test
         }
 
         [Fact]
         public void CreateCreditCardAsync_InputValidExpiryDate_ReturnValidExpiryDate()
         {
-            //TODO: Write unit tests
+            //TODO: Write unit test
         }
 
         private IList<ValidationResult> ValidateModel(object model)
