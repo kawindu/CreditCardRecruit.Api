@@ -14,7 +14,7 @@ namespace CreditCardRecruit.Api.Models
         public string CreditCardNumber { get; set; }
 
         [Required]
-        [RegularExpression(@"^\d{3}$", ErrorMessage = "Invalid CVC numbers (must be 3 digits).")]
+        [RegularExpression(@"^\d{3}$", ErrorMessage = "Invalid CVC number (must be 3 digits).")]
         public string CvcNumber { get; set; }
 
         [Required]
