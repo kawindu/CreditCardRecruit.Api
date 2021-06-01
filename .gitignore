@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CreditCardRecruit.Api/CreditCardRecruit.Api/obj
+/CreditCardRecruit.Api/CreditCardRecruit.Api.Tests.Integration/obj
+/CreditCardRecruit.Api/CreditCardRecruit.Api.Tests.Unit/obj
