@@ -5,10 +5,7 @@ namespace CreditCardRecruit.Api.Tests.Integration
 {
     public class CreditCardTests
     {
-        [Fact]
-        public void Test1()
-        {
-
-        }
+        //TODO: setup temp storage for integration testing
+        //TODO: write integration testing
     }
 }
